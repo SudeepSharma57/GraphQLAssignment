@@ -1,0 +1,31 @@
+{
+  "schemaNamespace" : "schema1",
+  "options" : {
+    "cocoapodsCompatibleImportStatements" : true
+  },
+  "input" : {
+    "operationSearchPaths" : [
+      "**/*.graphql"
+    ],
+    "schemaSearchPaths" : [
+      "**/*.graphqls"
+    ]
+  },
+  "output" : {
+    "testMocks" : {
+      "none" : {
+      }
+    },
+    "schemaTypes" : {
+      "path" : "./schema1",
+      "moduleType" : {
+        "other" : {
+        }
+      }
+    },
+    "operations" : {
+      "inSchemaModule" : {
+      }
+    }
+  }
+}
